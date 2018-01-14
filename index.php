@@ -8,12 +8,12 @@
 </head>
 <style>
 #keyart-0 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax0.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax0.png);
     background-color: #ffaf1b;
     background-position-y: -100px;
 }
 #keyart-1 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax1.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax1.png);
     background-position-y: -100px;
 }
 #keyart-2 {
@@ -21,19 +21,19 @@
     background-position-y: -100px;
 }
 #keyart-3 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax3.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax3.png);
     background-position-y: -100px;
 }
 #keyart-4 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax4.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax4.png);
     background-position-y: -100px;
 }
 #keyart-5 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax5.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax5.png);
     background-position-y: -100px;
 }
 #keyart-6 {
-    background-image: url(https://www.firewatchgame.com/images/parallax/parallax6.png);
+    background-image: url(http://www.firewatchgame.com/images/parallax/parallax6.png);
     background-position-y: -100px;
 }
 #keyart-7 {
