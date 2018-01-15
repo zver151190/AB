@@ -61,6 +61,38 @@
 	transform:translate3d(0px,0px,0px);
 	transition:transform 0.3s ease;
 }
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -141,9 +173,20 @@
 
 	
 </script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <body>
 
-
+<style>
+  #about-me{text-align: center;font-size: 60px; margin: 0px; color: white; font-weight: bold; border-bottom: 1px solid #ffffff36;}
+  #about-me span{color: #4CAF50;}
+  #_about_me{height:1000px;width:  100%;background: #210002;z-index: 10;position: relative;    padding: 0px 50px;}
+  #introduce{text-align: center;color: white;font-size: 20px;letter-spacing: 4px;}
+  #_about-cont .col-md-4 div{display:  inline-block;background:  white;padding: 15px;transform: rotate(-7deg);margin-top: 60px;}
+  #_about-cont .col-md-4 div img{height: 300px;}
+  #_about-cont .col-md-8 p{color: white;font-size: 20px;font-family:Lato}
+  #_about-cont .col-md-8 h2{color: white;font-family: Lato;margin-bottom: 40px;text-align: left;}
+  #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
+</style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
 				<div class="keyart_layer parallax" id="keyart-1" data-speed="5" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>	<!-- 12.5 -->
@@ -154,10 +197,55 @@
 				<div class="keyart_layer parallax" id="keyart-6" data-speed="49" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 75.0 -->
 				<div class="keyart_layer" id="keyart-scrim"></div>
 				<div class="keyart_layer parallax" id="keyart-7" data-speed="69" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 87.5 -->
-				<div class="keyart_layer " id="keyart-8" data-speed="100"></div>		<!-- 100. -->
+				<div class="keyart_layer " id="keyart-8" data-speed="100">
+				</div>		<!-- 100. -->
 </div>
   
-<div style="height:1000px;width:  100%;background: #210002;z-index: 10;position: relative;margin-bottom: -270px;"></div>
+<div id="_about_me">
+	<h1 id="about-me">ABOUT <span>ME</span></h1>
+	<h1 id="introduce">ALLOW ME TO INTRODUCE MYSELF</h1>
+	<div id="_about-cont" class="col-xs-12" style="padding-top: 50px;">
+		<div class="col-md-4 col-xs-12">
+			<div><img src="https://scontent.ftlv2-1.fna.fbcdn.net/v/t1.0-9/934972_10200537557913799_948793363_n.jpg?oh=8baf2a3d86f2821e816e176b8b6dc08c&oe=5AE8697B"></div>
+		</div>
+		<div class="col-md-8 col-xs-12" style="padding: 0px 50px;">
+			<h2><span>HI, MY NAME IS ARTIOM BUBLIK</span></h2>
+			<p>I am a Full Stack Web Developer living in Rishon Lezion, Israel, with experience in coding:</p>
+				<ul style="font-family:  Lato;color: white;font-size: 18px;">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>jQuery</li>
+					<li>Javascript</li>
+					<li>PHP</li>
+					<li>Java</li>
+					<li>And still learning more...</li>
+				</ul>
+			<p>My passion for coding started when i was studying animation in HackerU college, in 3D animation you are bound to use code for simulations and verious things, so i started to learn.</p>
+			<p>After graduating the animation course i went to learn code in John Bryce College.</p>			
+			<p>I now know i enjoy both design and development, front end and backend. I enjoy every aspect of it.</p>
+			
+		</div>
+	</div>
+	<div style="width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;">
+		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
+			<h3 style="">What are you most passionate about these days?</h3>
+			<p style="font-size: 16px;">I consider myself as a creative person, i enjoy creating things from scratch, disassembling things to see how they work so that i would have the knowledge to recreate them. I am very passionate about learning new things and developing myself.</p>
+		</div>
+		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
+			<h3 style="">What would be your ideal position?</h3>
+			<p style="font-size: 16px;">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their </p>
+		</div>
+		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
+			<h3 style="">Why do you think you would be a good fit for a web developer position at BrainPOP?</h3>
+			<p style="font-size: 16px;">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+		</div>
+		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
+			<h3 style="">If you had to choose, what is the one thing you do best? Explain why do you feel that way</h3>
+			<p style="font-size: 16px;">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+		</div>
+	</div>
+
+</div>
   
 
 </body>
