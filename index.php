@@ -125,7 +125,6 @@
 					if( $(this).scrollTop() == 0){
 						distance = 0;
 					}
-					console.log(distance);
 			});
 
               $(window).scroll(function(){
