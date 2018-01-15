@@ -96,6 +96,8 @@
 	#q .col-md-3 p {font-size: 30px !important;}
 	#_about_me {height: 3200px;}
 }
+	
+	#_scroll{position: absolute; bottom: 250px; margin-left: 50%; transform: translateX(-50%); cursor: pointer; color: white; font-weight: bold; font-family: Lato; border: 1px solid white; padding: 10px 20px; border-radius: 50px;}
 
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
@@ -189,7 +191,8 @@
 				<div class="keyart_layer" id="keyart-scrim"></div>
 				<div class="keyart_layer parallax" id="keyart-7" data-speed="69" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 87.5 -->
 				<div class="keyart_layer " id="keyart-8" data-speed="100">
-				</div>		<!-- 100. -->
+					<span id="_scroll">SCROLL DOWN</span>
+				</div>
 </div>
   
 <div id="_about_me">
