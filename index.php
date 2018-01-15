@@ -233,7 +233,7 @@
 		</div>
 		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
 			<h3 style="">What would be your ideal position?</h3>
-			<p style="font-size: 16px;">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their </p>
+			<p style="font-size: 16px;">I think it is important to love what you're doing or else you won't succeed. This position would have to exite me and keep me wanting more.</p>
 		</div>
 		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
 			<h3 style="">Why do you think you would be a good fit for a web developer position at BrainPOP?</h3>
