@@ -149,7 +149,7 @@
   #_about_me{height:1000px;width:  100%;background: #210002;z-index: 10;position: relative;    padding: 0px 50px;}
   #introduce{text-align: center;color: white;font-size: 20px;letter-spacing: 4px;}
   #_about-cont .col-md-4 div{display:  inline-block;background:  white;padding: 15px;transform: rotate(-7deg);margin-top: 60px;}
-  #_about-cont .col-md-4 div img{height: 300px;}
+  #_about-cont .col-md-4 div img{width:100%;}
   #_about-cont .col-md-8 p{color: white;font-size: 20px;font-family:Lato}
   #_about-cont .col-md-8 h2{color: white;font-family: Lato;margin-bottom: 40px;text-align: left;}
   #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
