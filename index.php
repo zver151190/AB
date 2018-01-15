@@ -74,16 +74,16 @@
   #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
   #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
 	
-@media only screen and (max-width: 1800px) {
+@media screen and (max-width: 1800px) {
 	#q .col-md-3 h3 {min-height: 90px !important;}
 }
 	
-@media only screen and (max-width: 1550px){
+@media screen and (max-width: 1550px){
 	#q .col-md-3{width:100%;}
          #q .col-md-3 p{font-size:22px;}
 	#_about_me{height:2100px;}
 }
-@media only screen and (max-width: 990px) {
+@media screen and (max-width: 990px){
 	#_about-cont .col-md-4 div{margin-bottom:90px;}
 	#_about_me {height: 2500px;}
 }
