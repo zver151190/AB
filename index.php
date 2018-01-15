@@ -186,6 +186,9 @@
   #_about-cont .col-md-8 p{color: white;font-size: 20px;font-family:Lato}
   #_about-cont .col-md-8 h2{color: white;font-family: Lato;margin-bottom: 40px;text-align: left;}
   #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
+  #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
+  #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
+  #q .col-md-3 h3{margin:0px;}
 </style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
@@ -226,21 +229,22 @@
 			
 		</div>
 	</div>
-	<div style="width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;">
-		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
-			<h3 style="">What are you most passionate about these days?</h3>
+
+	<div id="q">
+		<div class="col-md-3 col-xs-12">
+			<h3>What are you most passionate about these days?</h3>
 			<p style="font-size: 16px;">I consider myself as a creative person, i enjoy creating things from scratch, disassembling things to see how they work so that i would have the knowledge to recreate them. I am very passionate about learning new things and developing myself.</p>
 		</div>
-		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
-			<h3 style="">What would be your ideal position?</h3>
+		<div class="col-md-3 col-xs-12">
+			<h3>What would be your ideal position?</h3>
 			<p style="font-size: 16px;">I think it is important to love what you're doing or else you won't succeed. This position would have to exite me and keep me wanting more.</p>
 		</div>
-		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
-			<h3 style="">Why do you think you would be a good fit for a web developer position at BrainPOP?</h3>
+		<div class="col-md-3 col-xs-12">
+			<h3>Why do you think you would be a good fit for a web developer position at BrainPOP?</h3>
 			<p style="font-size: 16px;">I think my skill set is very relevant for this position, my knowledge in web development and my creativity.</p>
 		</div>
-		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
-			<h3 style="">If you had to choose, what is the one thing you do best? Explain why do you feel that way</h3>
+		<div class="col-md-3 col-xs-12">
+			<h3>If you had to choose, what is the one thing you do best? Explain why do you feel that way</h3>
 			<p style="font-size: 16px;">
 				In the field of web development you must stay up to date with the current technology so you can stay relevant.
     				I think one of the things i do best is studying by myself. I love coding so i am very passionate about it, i can spend many hours sitting on the computer trying to learn new things or developing existing skills.</p>
