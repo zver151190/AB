@@ -209,7 +209,7 @@
 			<div><img src="https://scontent.ftlv2-1.fna.fbcdn.net/v/t1.0-9/934972_10200537557913799_948793363_n.jpg?oh=8baf2a3d86f2821e816e176b8b6dc08c&oe=5AE8697B"></div>
 		</div>
 		<div class="col-md-8 col-xs-12" style="padding: 0px 50px;">
-			<h2><span>HI, MY NAME IS ARTIOM BUBLIK</span></h2>
+			<p>Hi, my name is Artiom Bublik</p>
 			<p>I am a Full Stack Web Developer living in Rishon Lezion, Israel, with experience in coding:</p>
 				<ul style="font-family:  Lato;color: white;font-size: 18px;">
 					<li>HTML</li>
