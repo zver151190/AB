@@ -62,13 +62,7 @@
 	transition:transform 0.3s ease;
 }
 	
-@media only screen and (max-width: 1800px) {
-	#q .col-md-3 h3 {min-height: 90px !important;}
-}
-@media only screen and (max-width: 1550px) {
-	#q .col-md-3{width:50% !important}
-	#_about_me{height:1400px;}
-}
+
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -164,6 +158,13 @@
   #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
   #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
   #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
+@media only screen and (max-width: 1800px) {
+	#q .col-md-3 h3 {min-height: 90px !important;}
+}
+@media only screen and (max-width: 1550px) {
+	#q .col-md-3{width:50% !important}
+	#_about_me{height:1400px;}
+}
 </style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
