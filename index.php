@@ -161,7 +161,13 @@
 @media screen and (max-width: 1800px) {
 	#q .col-md-3 h3 {min-height: 90px !important;}
 }
-@media screen and (max-width: 1550px) and (min-width: 800px) {
+@media screen and (max-width: 800px) {
+	#q .col-md-3{width:100% !important;}
+	#q .col-md-3 p{font-size:22px !important;}
+	#_about_me{height:2000px;}
+}
+	
+@media screen and (max-width: 1550px){
 	#q .col-md-3{width:50% !important}
 	#_about_me{height:1400px;}
 }
@@ -169,11 +175,7 @@
 	#_about-cont .col-md-4 div{margin-bottom:90px;}
 	#_about_me {height: 2000px;}
 }
-@media screen and (max-width: 800px) {
-	#q .col-md-3{width:100% !important;}
-	#q .col-md-3 p{font-size:22px !important;}
-	#_about_me{height:2000px;}
-}
+
 </style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
