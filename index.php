@@ -237,7 +237,7 @@
 		</div>
 		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
 			<h3 style="">Why do you think you would be a good fit for a web developer position at BrainPOP?</h3>
-			<p style="font-size: 16px;">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+			<p style="font-size: 16px;">I think my skill set is very relevant for this position, my knowledge in web development and creativity.</p>
 		</div>
 		<div class="col-md-3 col-xs-12" style="font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;">
 			<h3 style="">If you had to choose, what is the one thing you do best? Explain why do you feel that way</h3>
