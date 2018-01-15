@@ -116,7 +116,7 @@
 			$("#_scroll").click(function() {
 			    $('html, body').animate({
 				scrollTop: $("#_about-cont").offset().top
-			    }, 2000);
+			    }, 1500);
 			});
 
 			var lastScrollTop = 0;
