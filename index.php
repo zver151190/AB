@@ -63,7 +63,11 @@
 }
 	
 @media only screen and (max-width: 1800px) {
-	#q .col-md-3 h3 {min-height: 90px;}
+	#q .col-md-3 h3 {min-height: 90px !important;}
+}
+@media only screen and (max-width: 1550px) {
+	#q .col-md-3{width:50% !important}
+	#_about_me{height:1400px;}
 }
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
