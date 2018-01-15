@@ -72,7 +72,7 @@
   #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
   #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
   #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
-  #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
+  #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black;    margin-bottom: 20px; }
 	
 @media screen and (max-width: 1800px) {
 	#q .col-md-3 h3 {min-height: 90px !important;}
