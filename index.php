@@ -165,6 +165,14 @@
 	#q .col-md-3{width:50% !important}
 	#_about_me{height:1400px;}
 }
+@media only screen and (max-width: 990px) {
+	#_about-cont .col-md-4 div{margin-bottom:90px;}
+	#_about_me {height: 2000px;}
+}
+@media only screen and (max-width: 800px) {
+	#q .col-md-3{width:100% !important}
+	#q .col-md-3{font-size:22px !important}
+}
 </style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
