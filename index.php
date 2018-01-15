@@ -90,6 +90,12 @@
 	#q .col-md-3 h3 {font-size: 30px;}
 	#q .col-md-3 p {font-size: 22px !important;}
 }
+@media screen and (max-width: 400px){
+	#_about-cont .col-md-8 p {font-size: 35px;}
+	#q .col-md-3 h3 {font-size: 40px;min-height: 120px !important;}
+	#q .col-md-3 p {font-size: 30px !important;}
+	#_about_me {height: 3200px;}
+}
 
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
