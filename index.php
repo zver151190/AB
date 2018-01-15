@@ -161,7 +161,7 @@
 @media screen and (max-width: 1800px) {
 	#q .col-md-3 h3 {min-height: 90px !important;}
 }
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1550px) and (min-width: 800px) {
 	#q .col-md-3{width:50% !important}
 	#_about_me{height:1400px;}
 }
@@ -171,7 +171,8 @@
 }
 @media screen and (max-width: 800px) {
 	#q .col-md-3{width:100% !important;}
-	#q .col-md-3{font-size:22px !important;}
+	#q .col-md-3 p{font-size:22px !important;}
+	#_about_me{height:2000px;}
 }
 </style>
   <div class="keyart" id="parallax">
