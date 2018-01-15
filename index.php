@@ -170,8 +170,8 @@
 	#_about_me {height: 2000px;}
 }
 @media only screen and (max-width: 800px) {
-	#q .col-md-3{width:100% !important}
-	#q .col-md-3{font-size:22px !important}
+	#q .col-md-3{width:100% !important;}
+	#q .col-md-3{font-size:22px !important;}
 }
 </style>
   <div class="keyart" id="parallax">
