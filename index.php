@@ -81,15 +81,13 @@
 @media only screen and (max-width: 1550px){
 	#q .col-md-3{width:100%;}
 	#_about_me{height:1400px;}
+       #q .col-md-3 p{font-size:22px;}
+	#_about_me{height:2000px;}
 }
 @media only screen and (max-width: 990px) {
 	#_about-cont .col-md-4 div{margin-bottom:90px;}
 	#_about_me {height: 2000px;}
 }
-@media only screen and (max-width: 800px) {
-	#q .col-md-3 p{font-size:22px;}
-	#_about_me{height:2000px;}
-}	
 
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
