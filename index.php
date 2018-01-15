@@ -61,38 +61,6 @@
 	transform:translate3d(0px,0px,0px);
 	transition:transform 0.3s ease;
 }
-.hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: black;
-  text-align: center;
-  height: 1.5em;
-  opacity: .5;
-  &:before {
-    content: '';
-    // use the linear-gradient for the fading effect
-    // use a solid background color for a solid bar
-    background: linear-gradient(to right, transparent, #818078, transparent);
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 1px;
-  }
-  &:after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-    color: black;
-
-    padding: 0 .5em;
-    line-height: 1.5em;
-    // this is really the only tricky part, you need to specify the background color of the container element...
-    color: #818078;
-    background-color: #fcfcfa;
-  }
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -188,7 +156,7 @@
   #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
   #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
   #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
-  #q .col-md-3 h3{margin:0px;}
+  #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
 </style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
