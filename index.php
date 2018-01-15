@@ -85,7 +85,8 @@
 }
 @media screen and (max-width: 990px){
 	#_about-cont .col-md-4 div{margin-bottom:90px;}
-	#_about_me {height: 2500px;}
+	#_about_me {height: 2800px;}
+	#_about-cont .col-md-8 p{font-size: 25px;}
 }
 
 </style>
