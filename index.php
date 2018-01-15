@@ -79,14 +79,16 @@
 }
 	
 @media screen and (max-width: 1550px){
-	#q .col-md-3{width:100%;}
-         #q .col-md-3 p{font-size:22px;}
+	#q .col-md-3{width:50%;}
 	#_about_me{height:2100px;}
 }
 @media screen and (max-width: 990px){
 	#_about-cont .col-md-4 div{margin-bottom:90px;}
 	#_about_me {height: 2800px;}
+	#q .col-md-3{width:100%;}
 	#_about-cont .col-md-8 p{font-size: 25px;}
+	#q .col-md-3 h3 {font-size: 30px;}
+	#q .col-md-3 p {font-size: 22px !important;}
 }
 
 </style>
