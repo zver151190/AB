@@ -61,6 +61,10 @@
 	transform:translate3d(0px,0px,0px);
 	transition:transform 0.3s ease;
 }
+	
+@media only screen and (max-width: 1800px) {
+	#q .col-md-3 h3 {min-height: 90px;}
+}
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
