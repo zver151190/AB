@@ -113,7 +113,7 @@
 			
 			$("#_scroll").click(function() {
 			    $('html, body').animate({
-				scrollTop: $("#_about-cont").offset().top
+				scrollTop: $("#_about-cont").offset().top-150
 			    }, 1500);
 			});
 
