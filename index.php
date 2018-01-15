@@ -61,7 +61,36 @@
 	transform:translate3d(0px,0px,0px);
 	transition:transform 0.3s ease;
 }
+  #about-me{text-align: center;font-size: 60px; margin: 0px; color: white; font-weight: bold; border-bottom: 1px solid #ffffff36;}
+  #about-me span{color: #4CAF50;}
+  #_about_me{height:1000px;width:  100%;background: #210002;z-index: 10;position: relative;    padding: 0px 50px;}
+  #introduce{text-align: center;color: white;font-size: 20px;letter-spacing: 4px;}
+  #_about-cont .col-md-4 div{display:  inline-block;background:  white;padding: 15px;transform: rotate(-7deg);margin-top: 60px;}
+  #_about-cont .col-md-4 div img{width:100%;}
+  #_about-cont .col-md-8 p{color: white;font-size: 20px;font-family:Lato}
+  #_about-cont .col-md-8 h2{color: white;font-family: Lato;margin-bottom: 40px;text-align: left;}
+  #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
+  #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
+  #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
+  #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
 	
+@media only screen and (max-width: 1800px) {
+	#q .col-md-3 h3 {min-height: 90px !important;}
+}
+	
+@media only screen and (max-width: 1550px){
+	#q .col-md-3{width:50%;}
+	#_about_me{height:1400px;}
+}
+@media only screen and (max-width: 990px) {
+	#_about-cont .col-md-4 div{margin-bottom:90px;}
+	#_about_me {height: 2000px;}
+}
+@media only screen and (max-width: 800px) {
+	#q .col-md-3{width:100%;}
+	#q .col-md-3 p{font-size:22px;}
+	#_about_me{height:2000px;}
+}	
 
 </style>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.js"  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
@@ -144,40 +173,6 @@
 </script>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <body>
-
-<style>
-  #about-me{text-align: center;font-size: 60px; margin: 0px; color: white; font-weight: bold; border-bottom: 1px solid #ffffff36;}
-  #about-me span{color: #4CAF50;}
-  #_about_me{height:1000px;width:  100%;background: #210002;z-index: 10;position: relative;    padding: 0px 50px;}
-  #introduce{text-align: center;color: white;font-size: 20px;letter-spacing: 4px;}
-  #_about-cont .col-md-4 div{display:  inline-block;background:  white;padding: 15px;transform: rotate(-7deg);margin-top: 60px;}
-  #_about-cont .col-md-4 div img{width:100%;}
-  #_about-cont .col-md-8 p{color: white;font-size: 20px;font-family:Lato}
-  #_about-cont .col-md-8 h2{color: white;font-family: Lato;margin-bottom: 40px;text-align: left;}
-  #_about-cont .col-md-8 h2 span{border-bottom: 5px solid white;padding-bottom: 10px;-right: 20px;}
-  #q{width:  100%;height:  150px;display:  inline-block;margin-top: 50px;border-top: 1px solid #ffffff36;}
-  #q .col-md-3{font-family: Lato;background: #ffaf1b;margin-top: 20px;padding: 20px;min-height: 290px;border-right: 5px solid black;border-radius: 10px;}
-  #q .col-md-3 h3 { margin: 0px; min-height: 70px; color: black; }
-	
-@media only screen and (max-width: 1800px) {
-	#q .col-md-3 h3 {min-height: 90px !important;}
-}
-	
-@media only screen and (max-width: 1550px){
-	#q .col-md-3{width:50%;}
-	#_about_me{height:1400px;}
-}
-@media only screen and (max-width: 990px) {
-	#_about-cont .col-md-4 div{margin-bottom:90px;}
-	#_about_me {height: 2000px;}
-}
-@media only screen and (max-width: 800px) {
-	#q .col-md-3{width:100%;}
-	#q .col-md-3 p{font-size:22px;}
-	#_about_me{height:2000px;}
-}
-
-</style>
   <div class="keyart" id="parallax">
 				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>		<!-- 00.0 -->
 				<div class="keyart_layer parallax" id="keyart-1" data-speed="5" clicks="0" style="transform: translate3d(0px, 0px, 0px);"></div>	<!-- 12.5 -->
